@@ -1,17 +1,19 @@
+@font-face { font-family: Delicious; src: url('Delicious-Roman.otf'); } 
+@font-face { font-family: Delicious; font-weight: bold; src: url('Delicious-Bold.otf'); }
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-body{
   font-family: sans-serif;
 }
+
+
+
 
 .intro{
   height: 100vh;
 }
-
 .intro video{
   height: 100%;
   width: 100%;
@@ -20,12 +22,40 @@ body{
 
 
 .section-2{
-  height: 100vh;
   color: black;
 }
-
 .section-2 h1{
-  padding-top: 300px;
-  text-align: center;
-  font-size: 500%;
+  font-weight: 100;
+  text-align: left;
+  padding: 50px;
+  padding-left: 75px;
+  font-size: 300%;
+}
+.section-2 p{
+  padding: 50px;
+  padding-top: 0;
+  font-size: large;
+  width: 80%;
+}
+
+
+.section-3{
+  height: 100vh;
+  align-content: center;
+  background-color: black;
+}
+.section-3 h1{
+  font-weight: 100;
+  text-align: left;
+  padding: 50px;
+  padding-left: 75px;
+  font-size: 300%;
+  color: white;
+}
+.section-3 p{
+  padding: 50px;
+  padding-top: 0;
+  font-size: large;
+  width: 80%;
+  color: white;
 }
