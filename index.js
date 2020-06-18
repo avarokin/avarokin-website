@@ -23,8 +23,9 @@ scene.on('update', e=>{   //Scroll Event Listener
   scrollPos = e.scrollPos/1000;
 })
 
-
 setInterval(() =>{
   delay += (scrollPos - delay)*accel;
   video.currentTime = delay;
 },33.3);
+
+// Sorting Video
