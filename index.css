@@ -9,8 +9,6 @@
 }
 
 
-
-
 .intro{
   height: 100vh;
 }
@@ -67,7 +65,7 @@
 }
 
 .section-4{
-  background-color:purple;
+  background-color:rgb(110, 130, 255);
   min-height: fit-content;
 }
 .section-4 h2{
@@ -84,6 +82,7 @@
   background-repeat: no-repeat;
   height: 500px;
   width: 600px;
+  display: inline-block;
 }
 .section-4 div video{
   width: 440px;
@@ -98,4 +97,8 @@
   font-size: large;
   width: 80%;
   color: white;
+  width: 50%;
+  min-width: 450px;
+  display: inline-block;
+  vertical-align: top;
 }
