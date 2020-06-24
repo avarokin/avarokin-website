@@ -21,7 +21,7 @@
 
 .section-2{
   color: black;
-  min-height: 550px;
+  min-height: 500px;
 }
 .section-2 h1{
   font-weight: 100;
@@ -41,12 +41,34 @@
   font-size: large;
   width: 80%;
 }
+.section-2 div{
+  position: relative;
+}
+.section-2 div a{
+  position: relative;
+}
+.section-2 div a img{
+  max-width: 100px;
+  height: auto;
+}
+
+.section-2_1 {
+  padding-left: 75px;
+  max-height: max-content;
+}
+.section-2_1 a img{
+  width: 60px;
+  padding: 10px;
+}
+.section-2_1 a img:hover{
+opacity: 50%;
+}
 
 
 .section-3{
   min-height: fit-content;
   align-content: center;
-  background-color: black;
+  background-color: white;
 }
 .section-3 h1{
   font-weight: 100;
@@ -54,14 +76,14 @@
   padding: 50px;
   padding-left: 75px;
   font-size: 300%;
-  color: white;
+  color: black;
 }
 .section-3 p{
   padding: 50px;
   padding-top: 0;
   font-size: large;
   width: 80%;
-  color: white;
+  color: black;
 }
 
 .section-4{
@@ -83,6 +105,7 @@
   height: 500px;
   width: 600px;
   display: inline-block;
+  padding-bottom: 0;
 }
 .section-4 div video{
   width: 440px;
@@ -122,9 +145,10 @@
   padding: 30px;
   padding-top: 0;
   display: inline-block;
+  padding-left: 30px;
 }
 .section-5 div video{
-  width: 440px;
+  width: 400px;
   text-align: center;
   position: relative;
 }
@@ -141,4 +165,176 @@
 }
 .section-5 a{
   color: blue;
+}
+
+
+.section-6{
+  background-color:rgb(255, 244, 149);
+  min-height: fit-content;
+}
+.section-6 h2{
+  color:black;
+  font-weight: 100;
+  text-align: left;
+  padding: 50px;
+  padding-left: 75px;
+  font-size: 300%;
+}
+.section-6 div{
+  padding: 30px;
+  background-image: url('monitor.png');
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 600px;
+  display: inline-block;
+  padding-bottom: 0;
+}
+.section-6 div video{
+  width: 440px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  left: 5px;
+}
+.section-6 p{
+  padding: 50px;
+  padding-top: 0;
+  font-size: large;
+  width: 80%;
+  color: black;
+  width: 50%;
+  min-width: 450px;
+  display: inline-block;
+  vertical-align: top;
+}
+.section-6 p a{
+  color: blue;
+}
+
+
+.section-7{
+  background-color:rgb(107, 107, 107);
+  min-height: fit-content;
+}
+.section-7 h2{
+  color: white;
+  font-weight: 100;
+  text-align: left;
+  padding: 50px;
+  padding-left: 75px;
+  font-size: 300%;
+}
+.section-7 div{
+  padding: 30px;
+  padding-top: 0;
+  width: 350px;
+  height: 400px;
+  display: inline-block;
+  padding-left: 80px;
+  background-image: url('gba.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-7 div video{
+  position: relative;
+  top:30px;
+  left: -7px;
+  width: 240px;
+}
+.section-7 p{
+  padding: 50px;
+  padding-top: 0;
+  font-size: large;
+  width: 80%;
+  color: white;
+  width: 50%;
+  min-width: 450px;
+  display: inline-block;
+  vertical-align: top;
+}
+.section-7 a{
+  color: lightblue;
+}
+
+.section-8{
+  background-color:rgb(255, 255, 255);
+  min-height: fit-content;
+}
+.section-8 h2{
+  color:black;
+  font-weight: 100;
+  text-align: left;
+  padding: 50px;
+  padding-bottom: 0;
+  padding-left: 75px;
+  font-size: 300%;
+}
+.section-8 div{
+  padding-left: 30px;
+  width: 600px;
+  display: inline-block;
+  padding-bottom: 0;
+}
+.section-8 div video{
+  width: 450px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  left: 5px;
+}
+.section-8 p{
+  padding: 50px;
+  padding-top: 50px;
+  font-size: large;
+  width: 80%;
+  color: black;
+  width: 50%;
+  min-width: 450px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.section-9{
+  background-color:rgb(107, 107, 107);
+  min-height: fit-content;
+}
+.section-9 h2{
+  color: white;
+  font-weight: 100;
+  text-align: left;
+  padding: 50px;
+  padding-left: 75px;
+  padding-bottom: 0;
+  font-size: 300%;
+}
+.section-9 div{
+  padding: 30px;
+  padding-top: 0;
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+  padding-left: 80px;
+  background-image: url('monitor.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-9 div video{
+  position: relative;
+  top:77px;
+  left: -45px;
+  width: 500px;
+}
+.section-9 p{
+  padding: 50px;
+  font-size: large;
+  width: 80%;
+  color: white;
+  width: 50%;
+  min-width: 450px;
+  display: inline-block;
+  vertical-align: top;
+}
+.section-9 a{
+  color: lightblue;
 }
