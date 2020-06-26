@@ -9,8 +9,37 @@
 }
 
 
+.navbar {
+  overflow: hidden;
+  background-color: rgb(40, 40, 40);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.navbar button{
+  float: left;
+  display: block;
+  text-align: center;
+  color: white;
+  border-width: 0;
+  background-color: rgb(40, 40, 40);
+  width: fit-content;
+  padding: 20px 30px 20px 30px;
+  font-size: large;
+}
+.navbar button:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+
+
+
 .intro{
   height: 100vh;
+  z-index: 2;
 }
 .intro video{
   height: 100%;
@@ -22,6 +51,7 @@
 .section-2{
   color: black;
   min-height: 500px;
+  padding-top: 50px;
 }
 .section-2 h1{
   font-weight: 100;
@@ -54,6 +84,7 @@
 
 .section-2_1 {
   padding-left: 75px;
+  padding-top: 0;
   max-height: max-content;
 }
 .section-2_1 a img{
@@ -61,7 +92,7 @@
   padding: 10px;
 }
 .section-2_1 a img:hover{
-opacity: 50%;
+  opacity: 50%;
 }
 
 
@@ -321,9 +352,9 @@ opacity: 50%;
 }
 .section-9 div video{
   position: relative;
-  top:77px;
+  top:72px;
   left: -45px;
-  width: 500px;
+  width: 430px;
 }
 .section-9 p{
   padding: 50px;
@@ -337,4 +368,28 @@ opacity: 50%;
 }
 .section-9 a{
   color: lightblue;
+}
+
+
+.section-10{
+  color: black;
+  min-height: 500px;
+  padding-top: 50px;
+  padding-bottom: 0;
+  
+}
+.section-10 h1{
+  font-weight: 100;
+  text-align: left;
+  padding: 50px;
+  padding-bottom: 0;
+  padding-left: 75px;
+  font-size: 300%;
+}
+.section-10 p{
+  padding: 50px;
+  padding-bottom: 0;
+  padding-top: 0;
+  font-size: large;
+  width: 80%;
 }

@@ -28,3 +28,28 @@ setInterval(() =>{
   video.currentTime = delay;
 },33.3);
 
+// Navbar scrolling
+
+$("#home-button").click(function() {
+  $('html,body').animate({
+      scrollTop: 0},
+      'slow');
+});
+
+$("#about-button").click(function() {
+  $('html,body').animate({
+      scrollTop: $(".section-2").offset().top},
+      'slow');
+});
+
+$("#dev-button").click(function() {
+  $('html,body').animate({
+      scrollTop: $(".section-3").offset().top-40},
+      'slow');
+});
+
+$("#contact-button").click(function() {
+  $('html,body').animate({
+      scrollTop: $(".section-10").offset().top-40},
+      'slow');
+});
