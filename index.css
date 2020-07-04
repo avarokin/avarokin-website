@@ -80,6 +80,38 @@
   height: auto;
 }
 
+.section-2_1 {
+  padding-left: 75px;
+  padding-top: 0;
+  padding-bottom: 75px;
+  max-height: max-content;
+}
+#resume-text{
+  position: relative;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(144, 118, 0);
+  padding: 10px;
+  top: -60px;
+  margin-right: 30px;
+  color: rgb(144, 118, 0);
+}
+#resume-text:hover{
+  opacity: 50%;
+}
+.section-2_1 a img{
+  position: relative;
+  width: 140px;
+  padding: 20px;
+}
+#purdue-logo{
+  top: -20px;
+}
+.section-2_1 a img:hover{
+  opacity: 50%;
+}
+
 
 .section-3{
   min-height: fit-content;
@@ -378,7 +410,6 @@
 .section-10 p{
   padding: 50px;
   padding-bottom: 0;
-  padding-top: 0;
   font-size: large;
   width: 80%;
 }
@@ -386,6 +417,7 @@
 .section-10_1 {
   padding-left: 75px;
   padding-top: 0;
+  padding-bottom: 75px;
   max-height: max-content;
 }
 .section-10_1 a img{
