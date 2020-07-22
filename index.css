@@ -262,6 +262,56 @@
 }
 
 
+
+.section-6_1{
+  background-color:rgb(136, 82, 187);
+  min-height: fit-content;
+}
+.section-6_1 h2{
+  color: white;
+  font-weight: 100;
+  text-align: left;
+  padding: 50px;
+  padding-left: 75px;
+  padding-bottom: 0;
+  font-size: 300%;
+}
+.section-6_1 div{
+  padding: 30px;
+  padding-top: 0;
+  width: 260px;
+  height: 430px;
+  display: inline-block;
+  padding-left: 80px;
+  background-image: url('smartphone.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -20px;
+}
+.section-6_1 div video{
+  position: relative;
+  top: 15px;
+  left: -1px;
+  width: 175px;
+}
+.section-6_1 p{
+  padding: 50px;
+  font-size: large;
+  width: 80%;
+  color: white;
+  width: 50%;
+  min-width: 450px;
+  display: inline-block;
+  vertical-align: top;
+}
+.section-6_1 a{
+  color: lightblue;
+}
+
+
+
+
+
 .section-7{
   background-color:rgb(107, 107, 107);
   min-height: fit-content;

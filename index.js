@@ -26,7 +26,7 @@ scene.on('update', e=>{   //Scroll Event Listener
 setInterval(() =>{
   delay += (scrollPos - delay)*accel;
   video.currentTime = delay;
-},33.3);
+},30);
 
 // Navbar scrolling
 
