@@ -178,6 +178,55 @@
   color:lightblue;
 }
 
+
+
+.section-4_1{
+  background-color:rgb(241, 129, 1);
+  min-height: fit-content;
+}
+.section-4_1 h2{
+  color: white;
+  font-weight: 100;
+  text-align: left;
+  padding: 50px;
+  padding-left: 75px;
+  font-size: 300%;
+}
+.section-4_1 div{
+  padding: 30px;
+  padding-top: 0;
+  width: 350px;
+  height: 500px;
+  display: inline-block;
+  padding-left: 80px;
+  background-image: url('smartphone_s.png');
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-position: 0px -20px;
+}
+.section-4_1 div video{
+  position: relative;
+  top: 22px;
+  left: -24px;
+  width: 185px;
+}
+.section-4_1 p{
+  padding: 50px;
+  padding-top: 0;
+  font-size: large;
+  width: 80%;
+  color: white;
+  width: 50%;
+  min-width: 450px;
+  display: inline-block;
+  vertical-align: top;
+}
+.section-4_1 a{
+  color: lightblue;
+}
+
+
+
 .section-5{
   background-color:rgb(154, 235, 133);
   min-height: fit-content;
@@ -264,8 +313,8 @@
 
 
 .section-6_1{
-  background-color:rgb(136, 82, 187);
-  min-height: fit-content;
+  background-color:rgb(147, 46, 194);
+  min-height: fit-content-100;
 }
 .section-6_1 h2{
   color: white;
@@ -273,41 +322,39 @@
   text-align: left;
   padding: 50px;
   padding-left: 75px;
-  padding-bottom: 0;
   font-size: 300%;
 }
 .section-6_1 div{
-  padding: 30px;
-  padding-top: 0;
-  width: 260px;
-  height: 430px;
-  display: inline-block;
-  padding-left: 80px;
+  padding: 80px;
+  padding-left: 100px;
   background-image: url('smartphone.png');
   background-repeat: no-repeat;
+  background-position: 65px -10px;
+  height: 400px;
+  width: 310px;
+  display: inline-block;
   background-size: cover;
-  background-position: 0px -20px;
+  padding-bottom: 0;
 }
 .section-6_1 div video{
+  width: 160px;
+  text-align: center;
   position: relative;
-  top: 15px;
-  left: -1px;
-  width: 175px;
+  top: -57px;
+  left: 40px;
 }
 .section-6_1 p{
-  padding: 50px;
+  padding-left: 200px;
   font-size: large;
-  width: 80%;
   color: white;
-  width: 50%;
+  width: 70%;
   min-width: 450px;
   display: inline-block;
   vertical-align: top;
 }
-.section-6_1 a{
-  color: lightblue;
+.section-6_1 p a{
+  color:lightblue;
 }
-
 
 
 
