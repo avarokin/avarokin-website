@@ -444,7 +444,7 @@
 
 
 .section-9{
-  background-color:rgb(107, 107, 107);
+  background-color:rgb(170, 83, 49);
   min-height: fit-content;
 }
 .section-9 h2{
@@ -487,6 +487,34 @@
 .section-9 a{
   color: lightblue;
 }
+
+
+.section-9_1{
+  color: white;
+  background-color: black;
+  min-height: fit-content;
+  padding-top: 50px;
+  padding-bottom: 75px;
+  
+}
+.section-9_1 h1{
+  font-weight: 100;
+  text-align: left;
+  padding: 50px;
+  padding-bottom: 0;
+  padding-left: 75px;
+  font-size: 300%;
+}
+.section-9_1 p{
+  padding: 50px;
+  padding-bottom: 0;
+  font-size: large;
+  width: 80%;
+}
+.section-9_1 a{
+  color: lightblue;
+}
+
 
 
 .section-10{

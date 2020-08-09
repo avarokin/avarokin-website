@@ -48,6 +48,12 @@ $("#dev-button").click(function() {
       'slow');
 });
 
+$("#research-button").click(function() {
+  $('html,body').animate({
+      scrollTop: $(".section-9_1").offset().top-40},
+      'slow');
+});
+
 $("#contact-button").click(function() {
   $('html,body').animate({
       scrollTop: $(".section-10").offset().top-40},

@@ -17,6 +17,7 @@
     <button type="button" id="home-button">Home</button>
     <button type="button" id="about-button">About</button>
     <button type="button" id="dev-button">Development Projects</button>
+    <button type="button" id="research-button">Research</button>
     <button type="button" id="contact-button">Contact</button>
   </div>
 
@@ -304,10 +305,39 @@
     </div>
   </section>
 
+  <section class='section-9_1'>
+    <h1>Research Interests</h1>
+    <p>
+      I have been working as a Research Assistant with 
+      <a href='https://www.cs.purdue.edu/people/graduate-students/asheoran'>
+      Amit Kumar Sheoran</a> and <a href = 'https://www.cs.purdue.edu/homes/fahmy/''>
+      Prof Sonia Fahmy</a> at Purdue University, on a research project that aims at providing the 
+      customers of the public cloud the best value and performance when using
+      an in-memory cache such as Redis or Memcached. I ran benchmarks using the
+      open source tool <a href="https://redislabs.com/blog/memtier_benchmark-a-high-throughput-benchmarking-tool-for-redis-memcached/">
+      memtier_benchmark</a> to test various configurations of memcached clusters,
+      ranging from on-premise setups, to manually setup clusters on AWS EC2 instances,
+      to leveraging AWS ElastiCache, their managed in-memory cache. I compare 
+      the performance of the setup configurations while varying request patterns,
+      ranging from random to gaussian gets/sets. I also look at horizontal versus
+      vertical scaling of nodes in a cache cluster and it's effect on tail latencies
+      and hit ratios. 
+
+      <br></br>
+
+      I am interested in looking at the way a public cloud customer could 
+      split their workload on the available IaaS (AWS EC2) and FaaS(AWS Lambdas)
+      to improve burst performance and improve stability in situations of sudden
+      traffic increase(Flash crowds), while minimizing the cost incurred by the
+      customer.
+     
+    </p>
+  </section>
+
+
   <section class='section-10'>
     <h1>Contact</h1>
     <p>
-      Elevator Pitch
 
       As a naturally creative person, I thrive in design and 
       development settings. I love to sink my teeth into projects 
