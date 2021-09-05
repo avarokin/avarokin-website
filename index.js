@@ -42,6 +42,12 @@ $("#about-button").click(function() {
       'slow');
 });
 
+$("#work-button").click(function() {
+  $('html,body').animate({
+      scrollTop: $(".section-we-1").offset().top-40},
+      'slow');
+});
+
 $("#dev-button").click(function() {
   $('html,body').animate({
       scrollTop: $(".section-3").offset().top-40},

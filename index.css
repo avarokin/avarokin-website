@@ -113,10 +113,63 @@
 }
 
 
+.section-we-1{
+  min-height: fit-content;
+  align-content: center;
+  background-color: black;
+}
+.section-we-1 h1{
+  font-weight: 100;
+  text-align: left;
+  padding: 50px;
+  padding-left: 75px;
+  font-size: 300%;
+  color: white;
+}
+.section-we-1 p{
+  padding: 50px;
+  padding-top: 0;
+  font-size: large;
+  width: 80%;
+  color: white;
+}
+
+
+.section-we-2{
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('ntnx_bg.png');
+  background-size: cover;
+  min-height:800px;
+}
+
+.section-we-2 a img{
+  padding: 0px;
+  padding-left: 20px;
+  margin: 0;
+  height: 10vh;
+  position: relative;
+}
+
+.section-we-2 a img:hover{
+  opacity: 50%;
+}
+
+.section-we-2 p{
+  padding: 50px;
+  padding-top: 0;
+  font-size: large;
+  color: white;
+  width: 80%;
+  min-width: 450px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
 .section-3{
   min-height: fit-content;
   align-content: center;
-  background-color: white;
+  background-color: black;
 }
 .section-3 h1{
   font-weight: 100;
@@ -124,18 +177,18 @@
   padding: 50px;
   padding-left: 75px;
   font-size: 300%;
-  color: black;
+  color: white;
 }
 .section-3 p{
   padding: 50px;
   padding-top: 0;
   font-size: large;
   width: 80%;
-  color: black;
+  color: white;
 }
 
 .section-4{
-  background-color:rgb(90, 90, 150);
+  background-image: linear-gradient(to top, rgba(0,0,255,0.85),rgba(0,0,255,1));
   min-height: fit-content-100;
 }
 .section-4 h2{
@@ -181,7 +234,7 @@
 
 
 .section-4_1{
-  background-color:rgb(241, 129, 1);
+  background-image: linear-gradient(to top, rgba(241, 129, 1, 0.85),rgba(241, 129, 1, 1));
   min-height: fit-content;
 }
 .section-4_1 h2{
@@ -228,7 +281,7 @@
 
 
 .section-5{
-  background-color:rgb(154, 235, 133);
+  background-image: linear-gradient(to top, rgba(154, 235, 133, 0.85),rgba(154, 235, 133, 1));
   min-height: fit-content;
 }
 .section-5 h2{
@@ -267,7 +320,7 @@
 
 
 .section-6{
-  background-color:rgb(255, 244, 149);
+  background-image: linear-gradient(to top, rgba(247, 233, 110, 0.85),rgba(247, 233, 110, 1));
   min-height: fit-content;
 }
 .section-6 h2{
@@ -313,7 +366,7 @@
 
 
 .section-6_1{
-  background-color:rgb(147, 46, 194);
+  background-image: linear-gradient(to top, rgba(147, 46, 194, 0.85),rgba(147, 46, 194, 1));
   min-height: fit-content-100;
 }
 .section-6_1 h2{
@@ -360,7 +413,7 @@
 
 
 .section-7{
-  background-color:rgb(107, 107, 107);
+  background-image: linear-gradient(to top, rgba(92, 92, 92, 0.85),rgba(92, 92, 92, 1));
   min-height: fit-content;
 }
 .section-7 h2{
