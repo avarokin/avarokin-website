@@ -34,7 +34,6 @@
 }
 
 
-
 .intro{
   height: 100vh;
   z-index: 2;
@@ -135,17 +134,55 @@
 }
 
 
-.section-we-2{
-  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('ntnx_bg.png');
+.section-we-1_5{
+  background-image: linear-gradient(to top, rgba(200,200,255,0.1),rgba(200,200,255,0.6));
   background-size: cover;
-  min-height:800px;
+  min-height: fit-content;
+}
+
+.section-we-1_5 a img{
+  padding: 0px;
+  padding-left: 75px;
+  margin: 10;
+  height: 15vh;
+  position: relative;
+}
+
+.section-we-1_5 a img:hover{
+  opacity: 50%;
+}
+
+.section-we-1_5 p{
+  padding: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: large;
+  color: black;
+  width: 90%;
+  min-width: 450px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.section-we-1_5 div img{
+  padding: 0px;
+  height: 30vh;
+  display: inline-block;
+}
+
+
+
+.section-we-2{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('ntnx_bg.png');
+  background-size: cover;
+  min-height:fit-content;
 }
 
 .section-we-2 a img{
-  padding: 0px;
-  padding-left: 20px;
+  padding: 20px;
+  padding-left: 55px;
   margin: 0;
-  height: 10vh;
+  height: 15vh;
   position: relative;
 }
 
@@ -158,12 +195,11 @@
   padding-top: 0;
   font-size: large;
   color: white;
-  width: 80%;
+  width: 90%;
   min-width: 450px;
   display: inline-block;
   vertical-align: top;
 }
-
 
 
 .section-3{
@@ -188,7 +224,7 @@
 }
 
 .section-4{
-  background-image: linear-gradient(to top, rgba(0,0,255,0.85),rgba(0,0,255,1));
+  background-image: linear-gradient(to top, rgba(0,0,255,0.8),rgba(0,0,255,0.6));
   min-height: fit-content-100;
 }
 .section-4 h2{
@@ -232,6 +268,39 @@
 }
 
 
+.section-4_0_5{
+  background-image: linear-gradient(to top, rgba(150, 150, 150, 0.85),rgba(150, 150, 150, 1));
+  min-height: fit-content;
+}
+.section-4_0_5 h2{
+  color: black;
+  font-weight: 100;
+  text-align: left;
+  padding: 50px;
+  padding-left: 75px;
+  font-size: 300%;
+}
+.section-4_0_5 div{
+  padding: 30px;
+  padding-top: 0px;
+  display: inline-block;
+}
+.section-4_0_5 div video{
+  width: 400px;
+  text-align: center;
+  position: relative;
+}
+.section-4_0_5 p{
+  padding: 50px;
+  padding-top: 0;
+  font-size: large;
+  width: 80%;
+  color: black;
+  width: 50%;
+  min-width: 450px;
+  display: inline-block;
+  vertical-align: top;
+}
 
 .section-4_1{
   background-image: linear-gradient(to top, rgba(241, 129, 1, 0.85),rgba(241, 129, 1, 1));
@@ -277,7 +346,6 @@
 .section-4_1 a{
   color: lightblue;
 }
-
 
 
 .section-5{
